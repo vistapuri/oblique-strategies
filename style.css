@@ -1,0 +1,38 @@
+html,body,.container{
+	height: 100%;
+}
+.container{
+	display: table;
+	width: 40%;
+}
+.vertical-center{
+	display: table-cell;
+	vertical-align: middle;
+}
+h1{
+	color: #COB283;
+}
+h1:after{
+	content: What is this?;
+	color: red;
+}
+
+small{
+	font-size: 14px;
+
+}
+.fa{
+  font-size:48px;
+  display: inline;
+  width: 100%;
+  padding: 0 5px;
+}
+btn-group{
+	display: inline-block;
+	margin: auto;
+	position: absolute;
+}
+
+
+
+
